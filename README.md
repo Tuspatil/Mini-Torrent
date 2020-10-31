@@ -1,13 +1,7 @@
 # Mini-Torrent
-A bit torrent like file sharing system with fallback multi-tracker system with synchronization and parallel downloading.
-Implemented own RPC mechanism, message encoding and methods for message serialization and de-serialization. Used openssl library for computing hash values of files(SHA1)
 • Built a file sharing system with multi-tracker functionality. 
 • It provides support for fault tolerance and parallel downloading. 
 • Technologies used: C++, Pthread.
-![Screenshot](archi.png)
-### Message Format
-![](messageFormat.png)
-# mtorrent
 ![Screenshot](archi.png)
 
 ## Parallel Download algorithm:
