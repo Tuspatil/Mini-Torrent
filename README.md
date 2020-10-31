@@ -1,8 +1,8 @@
 # Mini-Torrent
--Built a file sharing system with multi-tracker functionality. 
--It provides support for fault tolerance and parallel downloading. 
--Technologies used: C++, Pthread.
-![Screenshot](archi.png)
+- Built a file sharing system with multi-tracker functionality. 
+- It provides support for fault tolerance and parallel downloading. 
+- Technologies used: C++, Pthread.
+- ![Screenshot](archi.png)
 
 ## Parallel Download algorithm:
 1. Create a 2-D map of chunk index - list of peers having that chunk of the file
